@@ -17,11 +17,3 @@ Prototype
 Object Pooling
 Factory Method
 Abstract Factory
-
-Implementation & Explanation (you can include code snippets as well)
-----------
-
-
-
-Results/Screenshots/Conclusions
-----------
