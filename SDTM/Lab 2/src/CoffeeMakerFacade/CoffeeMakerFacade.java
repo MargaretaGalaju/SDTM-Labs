@@ -1,4 +1,4 @@
-public class CoffeeMaker {
+public class CoffeeMakerFacade {
     private ICoffeeMaker americano;
     private ICoffeeMaker cappuccino;
     private ICoffeeMaker latte;
