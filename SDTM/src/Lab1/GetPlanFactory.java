@@ -1,3 +1,5 @@
+package Lab1;
+
 class GetPlanFactory{
     public CoffeePrice getCoffeePrice(String coffeeType){
         if(coffeeType == null){

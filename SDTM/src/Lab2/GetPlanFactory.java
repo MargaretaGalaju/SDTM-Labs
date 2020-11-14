@@ -1,6 +1,8 @@
-class GetPlanFactory{
+package Lab2;
+
+public class GetPlanFactory{
     public CoffeePrice getCoffeePrice(String coffeeType){
-        if(coffeeType == null){
+        if (coffeeType == null){
             return null;
         }
         if(coffeeType.equalsIgnoreCase("home")) {

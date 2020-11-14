@@ -1,3 +1,5 @@
+package Lab1;
+
 abstract class CoffeePrice{
     protected double price;
     abstract void getCoffeePrice();

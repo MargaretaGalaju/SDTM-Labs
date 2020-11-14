@@ -1,10 +1,14 @@
-public class CoffeeOrderHistory {
+package Lab2.CoffeeOrderHistory;
+
+import java.util.HashMap;
+
+public class CoffeeHistory {
     private static final HashMap orderedCoffees = new HashMap();
 
-    public static addCoffeeToHistory(String coffeeType) {
+    public static CoffeeType addCoffeeToHistory(String coffeeType) {
         CoffeeType existingCoffee = (CoffeeType)orderedCoffees.get(coffeeType);
         if(existingCoffee == null) {
-            CoffeeType newCoffee = new AttendeeImpl(coffeeType);
+            CoffeeType newCoffee = new CoffeeType(coffeeType);
             orderedCoffees.put(coffeeType, newCoffee);
             System.out.println("Creating a new coffee: " + coffeeType);
             return newCoffee;

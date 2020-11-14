@@ -1,3 +1,5 @@
+package Lab2;
+
 public class CoffeeBuilderPattern {
     static class Coffee {
         private Coffee(Builder builder) {

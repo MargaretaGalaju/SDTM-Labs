@@ -17,13 +17,14 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab#1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SDTM" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\veace\OneDrive\Рабочий стол\University\SDTM\SDTM-Labs\SDTM" />
       <recent name="C:\Users\veace\OneDrive\Рабочий стол\University\SDTM\SDTM-Labs\Lab#1" />
     </key>
   </component>

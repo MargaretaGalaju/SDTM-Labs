@@ -1,23 +1,25 @@
+package Lab2.CoffeeMakerFacade;
+
 public class CoffeeMakerFacade {
     private ICoffeeMaker americano;
     private ICoffeeMaker cappuccino;
     private ICoffeeMaker latte;
     
-    public CoffeeMaker() {
+    public void CoffeeMaker() {
         americano = new Americano();
         cappuccino = new Cappuccino();
         latte = new Latte();
     }
     
     public void prepareLatte() {
-        latte.feed();
+        latte.prepareCoffee();
     }
     
     public void prepareCappuccino() {
-        cappuccino.feed();
+        cappuccino.prepareCoffee();
     }
     
     public void prepareAmericano() {
-        americano.feed();
+        americano.prepareCoffee();
     }
 }
