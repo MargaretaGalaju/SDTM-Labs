@@ -1,0 +1,17 @@
+public class CoffeeMakerProxy implements CoffeeMakerImpl {
+
+    private CoffeeMakerImpl coffeeMakerImpl;
+    private String coffeeType;
+
+    public CoffeeMakerProxy(String coffeeType){
+        this.coffeeType = coffeeType;
+    }
+
+    @Override
+    public void prepareCoffee() {
+        if(coffeeMakerImpl == null){
+            coffeeMakerImpl = new CoffeeMakerImpl(coffeeType);
+        }
+        coffeeMakerImpl.prepareCoffee();
+    }
+}
