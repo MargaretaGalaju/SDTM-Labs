@@ -1,4 +1,4 @@
-package Lab3.CoffeeOrderHistory;
+package CoffeeOrderHistory;
 
 import java.util.HashMap;
 
@@ -10,11 +10,12 @@ public class CoffeeHistory {
         if(existingCoffee == null) {
             CoffeeType newCoffee = new CoffeeType(coffeeType);
             orderedCoffees.put(coffeeType, newCoffee);
-            System.out.println("Creating a new coffee: " + coffeeType);
+            System.out.println("Adding to order history: " + coffeeType);
+            System.out.println("History length:" + orderedCoffees.size());
             return newCoffee;
         }
 
-        System.out.println("Such coffee has already been created, returing you the same");
+        System.out.println("Such coffee has already been created, returning you the same");
         return existingCoffee;
     }
 }

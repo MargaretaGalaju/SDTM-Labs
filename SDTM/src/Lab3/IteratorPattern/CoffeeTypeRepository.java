@@ -1,4 +1,4 @@
-package Lab3;
+package IteratorPattern;
 
 public class CoffeeTypeRepository implements Sector {
     public String[] coffees = {"Espresso", "Americano", "Cappuccino", "Machiatto", "Latte"};

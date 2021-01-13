@@ -1,4 +1,6 @@
-package Lab3;
+package MediatorPattern;
+
+import java.util.Date;
 
 public class Chat {
     public static void showMessage(User user, String message) {

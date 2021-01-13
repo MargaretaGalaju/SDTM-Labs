@@ -1,4 +1,4 @@
-package Lab3;
+package MediatorPattern;
 
 public class User {
     private String name;

@@ -1,4 +1,4 @@
-package Lab3.CoffeeOrderHistory;
+package CoffeeOrderHistory;
 
 public class CoffeeType {
     public String coffeeType;
